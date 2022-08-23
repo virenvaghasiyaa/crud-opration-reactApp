@@ -51,38 +51,38 @@ export default function Login() {
     <>
       <div className='conatiner'>
         <div className='d-flex align-items-center justify-content-center vh-100'>
-          <div className='p-5 border rounded bg-white login-card'>
-            <h1 className='text-center'>Logo</h1>
+          <div className='p-5 bg-white login-card'>
+            <h1 className='druk-font text-center'>Logo</h1>
             <form onSubmit={handleSubmit}>
               <div className='mb-2'>
-                <label htmlFor='userId' className='form-label'>User Id</label>
+                <label htmlFor='userId' className='mb-1 druk-font'>User Id</label>
                 <input
                   type='text'
                   name='userId'
                   id='userId'
-                  className='form-control active-border'
+                  className='form-control'
                   value={state.userId}
                   onChange={handleChange}
-                  placeholder='userId'
+                  // placeholder='userId'
                 />
               </div>
               <div className='mb-5'>
-                <label htmlFor='password' className='form-label'>Password</label>
+                <label htmlFor='password' className='mb-1 druk-font'>Password</label>
                 <input
                   type='password'
                   name='password'
                   id='password'
-                  className='form-control active-border'
+                  className='form-control'
                   value={state.password}
                   onChange={handleChange}
-                  placeholder='password'
+                  // placeholder='password'
                 />
                 {errMsg ? <small className='text-danger'>userId and password does not match please try again</small> : ''}
               </div>
 
               {emptyMsg ? <p className='text-danger'>Enter the value first then submit</p> : ''}
 
-              <button type='submit' className='btn btn-info w-100 text-white fw-bold'>Submit</button>
+              <button type='submit' className='btn-clickable w-100 druk-font'>Submit</button>
             </form>
           </div>
         </div>

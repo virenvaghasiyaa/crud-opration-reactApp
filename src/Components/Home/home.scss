@@ -6,3 +6,38 @@
 .delete-icon:hover{
     filter: invert(13%) sepia(74%) saturate(6112%) hue-rotate(360deg) brightness(101%) contrast(119%);
 }
+
+.druk-font{
+    font-family: 'Druk Wide Bold', 'Courier New', Courier, monospace;
+}
+
+.table-container{
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 20px;
+    tr{
+        border-color: black;
+    }
+    tbody{
+        tr, th, td{
+            border: 0;
+        }
+    }
+}
+
+.btn-clickable{
+    border: 1px solid #000;
+    border-radius: 12px;
+    box-shadow: 4px 4px;
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #000;
+    background-color: hsl(0, 0%, 98%);
+    &:hover{
+        background-color: hsl(0, 0%, 95%);
+        color: #000;
+    }
+    &:active{
+        transform: translate(4px, 4px);
+        box-shadow: none;
+    }
+}

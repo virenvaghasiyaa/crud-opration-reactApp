@@ -15,7 +15,7 @@ export const AddUser = async (data) => {
 }
 
 export const editUser = async(id, data) => {
-    return await axios.get(`${hostUrl}/users/${id}`, data).then(response => response).catch(error => error);
+    return await axios.put(`${hostUrl}/users/${id}`, data).then(response => response).catch(error => error);
 }
 
 export const deleteUser = async (id) => {

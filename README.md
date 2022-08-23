@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Crud opration react app
+
+In this project i used these Js library
+    # axios
+    # bootstrap
+    # react-bootstrap
+    # react-router-dom
+    # node-sass
+
+# this project is protected routes if user not login then user can't access the home page the password the store in localStorage
+    the uid is 123456 and pwd is 123456
