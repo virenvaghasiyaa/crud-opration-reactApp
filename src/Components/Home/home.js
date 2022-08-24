@@ -76,8 +76,6 @@ export default function Home() {
             // console.log('add user', res.data);
             if (res && state.name.length !== 0 && state.username.length !== 0 && state.website.length !== 0) {
                 fetchAllUserdata();
-            }else{
-                
             }
         }).catch(err => err)
     }

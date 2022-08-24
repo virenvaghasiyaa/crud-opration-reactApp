@@ -80,4 +80,4 @@ In this project i used these Js library
     # node-sass
 
 # this project is protected routes if user not login then user can't access the home page the password the store in localStorage
-    the uid is 123456 and pwd is 123456
+    uid is 123456 and pwd is 123456
