@@ -5,14 +5,13 @@ import Login from './Components/Auth/login';
 import Home from './Components/Home/home';
 import { PublicRouting } from './Routes/PublicRouting';
 import { PrivateRouting } from './Routes/PrivateRouting';
-import Edit from './Components/Home/edit';
 
 
 function App() {
   return (
     <>
       {/* <ToastContainer 
-        position='bootom-right'
+        position='bottom-right'
         autoclose={5000}
         newestOnTop={false}
         closeOnClick
@@ -30,10 +29,6 @@ function App() {
 
         <Route element={<PrivateRouting />} >
           <Route exact path={`/home`} element={<Home />} />
-        </Route>
-
-        <Route element={<PrivateRouting />} >
-          <Route exact path={`/user/:id`} element={<Edit />} />
         </Route>
       </Routes>
     </>
