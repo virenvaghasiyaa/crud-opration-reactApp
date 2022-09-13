@@ -49,6 +49,8 @@ export default function Login() {
   }
   return (
     <>
+      {/* userid & password : 123456 */}
+
       <div className='conatiner'>
         <div className='d-flex align-items-center justify-content-center vh-100'>
           <div className='p-5 bg-white login-card'>
